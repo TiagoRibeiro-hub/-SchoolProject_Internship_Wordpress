@@ -1,0 +1,558 @@
+0000.001 (0) Opened log file at time: Fri, 20 Aug 2021 15:39:34 +0000 on http://localhost/wordpress
+0000.015 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.60 WP: 5.8 PHP: 8.0.9 (apache2handler, Windows NT LAPTOP-TTDUB01Q 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.20-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 53.5M | 6M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.044 (0) Free space on disk containing Updraft's temporary directory: 357056.7 MB
+0000.063 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.091 (0) Semaphore (fd, wp_options) being initialised
+0000.101 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.129 (0) Set semaphore last lock (fd) time to 2021-08-20 15:39:34
+0000.132 (0) Semaphore lock (fd) complete
+0000.149 (0) Backup run: resumption=0, nonce=6b0f5860fe98, file_nonce=6b0f5860fe98 begun at=1629473974 (0s ago), job type=backup
+0000.160 (0) Scheduling a resumption (1) after 300 seconds (1629474274) in case this run gets aborted
+0000.268 (0) Checking if we have a zip executable available
+0000.275 (0) Creation of backups of directories: beginning
+0000.288 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.339 (0) Total entities for the zip file: 688 directories, 4158 files (0 skipped as non-modified), 80.2 MB
+0001.355 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3641, E:\Xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0001.389 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.420 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.461 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.502 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.533 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.548 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 4158 files batched, 529 (529) added so far); re-opening (prior size: 0 KB)
+0006.848 (0) A useful amount of data was added after this amount of zip processing: 6.6 s (normalised: 6.6 s, rate: 3862.3 KB/s)
+0006.910 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 600 files added (on-disk size: 6664.4 KB)
+0006.966 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 700 files added (on-disk size: 6664.4 KB)
+0007.058 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 800 files added (on-disk size: 6664.4 KB)
+0007.103 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 900 files added (on-disk size: 6664.4 KB)
+0007.170 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 1000 files added (on-disk size: 6664.4 KB)
+0007.218 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 1100 files added (on-disk size: 6664.4 KB)
+0007.241 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 1200 files added (on-disk size: 6664.4 KB)
+0007.279 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 1300 files added (on-disk size: 6664.4 KB)
+0007.316 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 1400 files added (on-disk size: 6664.4 KB)
+0007.348 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 1500 files added (on-disk size: 6664.4 KB)
+0007.357 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.2 MB, 4158 files batched, 1001 (1530) added so far); re-opening (prior size: 6664.4 KB)
+0011.674 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 1600 files added (on-disk size: 12421.6 KB)
+0011.740 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 1700 files added (on-disk size: 12421.6 KB)
+0011.785 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 1800 files added (on-disk size: 12421.6 KB)
+0011.826 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 1900 files added (on-disk size: 12421.6 KB)
+0011.881 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 2000 files added (on-disk size: 12421.6 KB)
+0011.931 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 2100 files added (on-disk size: 12421.6 KB)
+0011.970 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 2200 files added (on-disk size: 12421.6 KB)
+0012.007 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 2300 files added (on-disk size: 12421.6 KB)
+0012.030 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 2400 files added (on-disk size: 12421.6 KB)
+0012.065 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 2500 files added (on-disk size: 12421.6 KB)
+0012.108 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.8 MB, 4158 files batched, 1001 (2531) added so far); re-opening (prior size: 12421.6 KB)
+0016.299 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 2600 files added (on-disk size: 15891.8 KB)
+0016.353 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 2700 files added (on-disk size: 15891.8 KB)
+0016.402 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 2800 files added (on-disk size: 15891.8 KB)
+0016.457 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 2900 files added (on-disk size: 15891.8 KB)
+0016.499 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 3000 files added (on-disk size: 15891.8 KB)
+0016.533 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 3100 files added (on-disk size: 15891.8 KB)
+0016.579 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 3200 files added (on-disk size: 15891.8 KB)
+0016.632 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 3300 files added (on-disk size: 15891.8 KB)
+0016.658 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 3400 files added (on-disk size: 15891.8 KB)
+0016.688 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 3500 files added (on-disk size: 15891.8 KB)
+0016.711 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20 MB, 4158 files batched, 1001 (3532) added so far); re-opening (prior size: 15891.8 KB)
+0023.530 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 3600 files added (on-disk size: 21830.8 KB)
+0023.562 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 3700 files added (on-disk size: 21830.8 KB)
+0023.597 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 3800 files added (on-disk size: 21830.8 KB)
+0023.637 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 3900 files added (on-disk size: 21830.8 KB)
+0023.663 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 4000 files added (on-disk size: 21830.8 KB)
+0023.695 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip.tmp: 4100 files added (on-disk size: 21830.8 KB)
+0028.409 (0) Created plugins zip (0) - 24423.5 KB in 28.1 s (868.8 KB/s) (sha1: 33eb20c38bcb5e527bf9e1ae014743369d1f50a5, sha256: aa990743a8a22946c450767814e2e677a465cfc0c99d13648b02e6b938a50d33)
+0028.427 (0) Beginning creation of dump of themes (split every: 400 MB)
+0028.775 (0) Total entities for the zip file: 24 directories, 1742 files (0 skipped as non-modified), 15.1 MB
+0028.832 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3641, E:\Xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0028.878 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0028.914 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0028.955 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0028.989 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0029.042 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0029.099 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0029.169 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0029.195 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0029.258 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0029.282 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0029.289 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.6 MB, 1742 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0034.122 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 1100 files added (on-disk size: 3681 KB)
+0034.192 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 1200 files added (on-disk size: 3681 KB)
+0034.268 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 1300 files added (on-disk size: 3681 KB)
+0034.294 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 1400 files added (on-disk size: 3681 KB)
+0034.327 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 1500 files added (on-disk size: 3681 KB)
+0034.350 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 1600 files added (on-disk size: 3681 KB)
+0034.373 (0) Zip: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip.tmp: 1700 files added (on-disk size: 3681 KB)
+0037.377 (0) Created themes zip (0) - 5495.7 KB in 8.9 s (614.3 KB/s) (sha1: c19333a208ceeb6ff6a2b4f212dfe47c0eb6099d, sha256: b6b73804f6e29065b484d5a1049fdc74abbdd972c14a005dd9c1de48b8355e06)
+0037.386 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0037.388 (0) Looking for candidates to backup in: E:\Xampp\htdocs\wordpress/wp-content/uploads
+0037.391 (0) finding files: 2021: adding to list (1)
+0037.393 (0) finding files: elementor: adding to list (2)
+0037.396 (0) finding files: essential-addons-elementor: adding to list (3)
+0037.398 (0) finding files: forminator: adding to list (4)
+0037.400 (0) finding files: ultimatemember: adding to list (5)
+0037.403 (0) finding files: ur-logs: adding to list (6)
+0037.406 (0) finding files: wpforms: adding to list (7)
+0037.408 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0037.425 (0) Total entities for the zip file: 17 directories, 35 files (0 skipped as non-modified), 2 MB
+0037.428 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3641, E:\Xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0037.769 (0) Created uploads zip (0) - 952.3 KB in 0.4 s (2665.7 KB/s) (sha1: 39e089a5507f70ab7fe058b1686df8376dc229bd, sha256: acc3db2082fc2d31420a2c12955eaeca699cd15f0ca2f4739994660d98d99909)
+0037.775 (0) Beginning backup of other directories found in the content directory (index: 0)
+0037.778 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0037.780 (0) Looking for candidates to backup in: E:\Xampp\htdocs\wordpress/wp-content
+0037.782 (0) finding files: index.php: adding to list (1)
+0037.784 (0) finding files: languages: adding to list (2)
+0037.787 (0) finding files: plugins: skipping: this is the plugins directory
+0037.789 (0) finding files: themes: skipping: this is the themes directory
+0037.791 (0) finding files: updraft: skipping: this is the updraft directory
+0037.808 (0) finding files: upgrade: skipping: excluded by options
+0037.812 (0) finding files: uploads: skipping: this is the uploads directory
+0037.821 (0) finding files: wphb-cache: adding to list (3)
+0037.825 (0) finding files: wphb-logs: adding to list (4)
+0037.842 (0) Total entities for the zip file: 4 directories, 3 files (0 skipped as non-modified), 0 MB
+0037.846 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3641, E:\Xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0037.866 (0) Created others zip (0) - 1.1 KB in 0 s (31.6 KB/s) (sha1: 1131dc6835d30935250a4225c50a8a6c1c088e00, sha256: 3f0dc635bdcdd7bfc13f2c348b4d6c27c83cf7edd4b930498b6f9e8e639bfb15)
+0037.888 (0) Saving backup status to database (elements: 8)
+0037.900 (0) Beginning creation of database dump (WordPress DB)
+0037.967 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0037.987 (0) Table wp_options: Total expected rows (approximate): 402
+0038.279 (0) Table wp_options: Rows added in this batch (next record: 2464): 409 (uncompressed bytes in this segment=1930708) in 0.28 seconds
+0038.312 (0) Table wp_options: finishing file(s) (2, 353.8 KB)
+0038.318 (0) Table wp_users: Total expected rows (approximate): 4
+0038.342 (0) Table wp_users: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=1742) in 0.01 seconds
+0038.381 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0038.393 (0) Table wp_usermeta: Total expected rows (approximate): 141
+0038.417 (0) Table wp_usermeta: Rows added in this batch (next record: 188): 141 (uncompressed bytes in this segment=15783) in 0.02 seconds
+0038.430 (0) Table wp_usermeta: finishing file(s) (2, 4.5 KB)
+0038.435 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0038.463 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.03 seconds
+0038.476 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0038.481 (0) Table wp_comments: Total expected rows (approximate): 0
+0038.502 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1678) in 0.02 seconds
+0038.514 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0038.521 (0) Table wp_links: Total expected rows (approximate): 0
+0038.542 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.02 seconds
+0038.551 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0038.555 (0) Table wp_postmeta: Total expected rows (approximate): 4711
+0038.913 (0) Table wp_postmeta: Rows added in this batch (next record: 7629): 4616 (uncompressed bytes in this segment=2805230) in 0.36 seconds
+0038.944 (0) Table wp_postmeta: finishing file(s) (2, 89.6 KB)
+0038.952 (0) Table wp_posts: Total expected rows (approximate): 814
+0039.162 (0) Table wp_posts: Rows added in this batch (next record: 1261): 958 (uncompressed bytes in this segment=1032499) in 0.21 seconds
+0039.179 (0) Table wp_posts: finishing file(s) (2, 47 KB)
+0039.202 (0) Table wp_term_relationships: Total expected rows (approximate): 14
+0039.268 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 14 (uncompressed bytes in this segment=881) in 0.05 seconds
+0039.293 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0039.302 (0) Table wp_term_taxonomy: Total expected rows (approximate): 6
+0039.355 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 7): 6 (uncompressed bytes in this segment=1064) in 0.04 seconds
+0039.383 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0039.403 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0039.463 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.04 seconds
+0039.515 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0039.532 (0) Table wp_terms: Total expected rows (approximate): 6
+0039.562 (0) Table wp_terms: Rows added in this batch (next record: 7): 6 (uncompressed bytes in this segment=907) in 0.03 seconds
+0039.592 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0039.613 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 56
+0039.691 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 713): 56 (uncompressed bytes in this segment=26205) in 0.07 seconds
+0039.744 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2.7 KB)
+0039.760 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0039.789 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=629) in 0.03 seconds
+0039.816 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0039.827 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0039.895 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=698) in 0.05 seconds
+0039.928 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0039.942 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 153
+0040.160 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 166): 166 (uncompressed bytes in this segment=111707) in 0.15 seconds
+0040.200 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 3.7 KB)
+0040.306 (0) Table wp_strong_views: Total expected rows (approximate): 0
+0040.375 (0) Table wp_strong_views: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=3449) in 0.03 seconds
+0040.431 (0) Table wp_strong_views: finishing file(s) (2, 1.4 KB)
+0040.442 (0) Table wp_um_metadata: Total expected rows (approximate): 0
+0040.471 (0) Table wp_um_metadata: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=719) in 0.03 seconds
+0040.525 (0) Table wp_um_metadata: finishing file(s) (2, 0.4 KB)
+0040.534 (0) Table wp_user_registration_sessions: Total expected rows (approximate): 0
+0040.554 (0) Table wp_user_registration_sessions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=740) in 0.02 seconds
+0040.571 (0) Table wp_user_registration_sessions: finishing file(s) (2, 0.4 KB)
+0040.581 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 16
+0040.623 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=1885) in 0.04 seconds
+0040.642 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.6 KB)
+0040.646 (0) PHP event: code E_WARNING: filemtime(): stat failed for E:\Xampp\htdocs\wordpress/wp-content/updraft/backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz (line 1813, E:\Xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0040.652 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_options.table.tmpr2465.gz (1/20/fopen): adding to final database dump
+0040.674 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_options.table.gz (2/20/fopen): adding to final database dump
+0040.678 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_users.table.tmpr6.gz (3/20/fopen): adding to final database dump
+0040.686 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_users.table.gz (4/20/fopen): adding to final database dump
+0040.689 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_usermeta.table.tmpr189.gz (5/20/fopen): adding to final database dump
+0040.704 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_usermeta.table.gz (6/20/fopen): adding to final database dump
+0040.707 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_commentmeta.table.tmpr0.gz (7/20/fopen): adding to final database dump
+0040.710 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_commentmeta.table.gz (8/20/fopen): adding to final database dump
+0040.713 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_comments.table.tmpr0.gz (9/20/fopen): adding to final database dump
+0040.717 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_comments.table.gz (10/20/fopen): adding to final database dump
+0040.720 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_links.table.tmpr0.gz (11/20/fopen): adding to final database dump
+0040.724 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_links.table.gz (12/20/fopen): adding to final database dump
+0040.738 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_postmeta.table.tmpr7630.gz (13/20/fopen): adding to final database dump
+0040.747 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_postmeta.table.gz (14/20/fopen): adding to final database dump
+0040.751 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_posts.table.tmpr1262.gz (15/20/fopen): adding to final database dump
+0040.755 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_posts.table.gz (16/20/fopen): adding to final database dump
+0040.784 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_term_relationships.table.tmpr100001.gz (17/20/fopen): adding to final database dump
+0040.890 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_term_relationships.table.gz (18/20/fopen): adding to final database dump
+0040.897 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_term_taxonomy.table.tmpr8.gz (19/20/fopen): adding to final database dump
+0040.902 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_term_taxonomy.table.gz (20/20/fopen): adding to final database dump
+0040.905 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_termmeta.table.tmpr0.gz (21/20/fopen): adding to final database dump
+0040.910 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_termmeta.table.gz (22/20/fopen): adding to final database dump
+0040.914 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_terms.table.tmpr8.gz (23/20/fopen): adding to final database dump
+0040.979 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_terms.table.gz (24/20/fopen): adding to final database dump
+0040.990 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_actionscheduler_actions.table.tmpr714.gz (25/20/fopen): adding to final database dump
+0040.995 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_actionscheduler_actions.table.gz (26/20/fopen): adding to final database dump
+0041.004 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_actionscheduler_claims.table.tmpr0.gz (27/20/fopen): adding to final database dump
+0041.008 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_actionscheduler_claims.table.gz (28/20/fopen): adding to final database dump
+0041.012 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_actionscheduler_groups.table.tmpr3.gz (29/20/fopen): adding to final database dump
+0041.016 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_actionscheduler_groups.table.gz (30/20/fopen): adding to final database dump
+0041.020 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_actionscheduler_logs.table.tmpr167.gz (31/20/fopen): adding to final database dump
+0041.045 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_actionscheduler_logs.table.gz (32/20/fopen): adding to final database dump
+0041.048 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_strong_views.table.tmpr2.gz (33/20/fopen): adding to final database dump
+0041.060 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_strong_views.table.gz (34/20/fopen): adding to final database dump
+0041.064 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_um_metadata.table.tmpr0.gz (35/20/fopen): adding to final database dump
+0041.069 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_um_metadata.table.gz (36/20/fopen): adding to final database dump
+0041.073 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_user_registration_sessions.table.tmpr1.gz (37/20/fopen): adding to final database dump
+0041.078 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_user_registration_sessions.table.gz (38/20/fopen): adding to final database dump
+0041.082 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_wpforms_tasks_meta.table.tmpr17.gz (39/20/fopen): adding to final database dump
+0041.089 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db-table-wp_wpforms_tasks_meta.table.gz (40/20/fopen): adding to final database dump
+0041.124 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: finished writing out complete database file (509.2 KB)
+0041.207 (0) Total database tables backed up: 20 (backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz, size: 521576, sha1: 8cee26a7dd495d4c994f3b1f21c19d3dca2bdf7e, sha256: 2a10e83f28b452a85776d063e951d2ec1f674efbfa4e0ef10024c64c82500cf8)
+0041.228 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0041.231 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0041.234 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0041.237 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: others: This file has not yet been successfully uploaded: will queue
+0041.239 (0) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: db: This file has not yet been successfully uploaded: will queue
+0041.242 (0) Saving backup history. Total backup size: 30.6 MB
+0041.251 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0041.262 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0041.264 (0) Beginning dispatch of backup to remote (email)
+0041.271 (0) [Warning] Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: This backup archive is 23.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0041.273 (0) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: email to: forma...
+0041.307 (0) Email: Mails were not sent successfully
+0041.310 (0) An error condition has occurred for the first time during this job
+0041.312 (0) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: email to: forma...
+0041.315 (0) Email: Mails were not sent successfully
+0041.318 (0) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: email to: forma...
+0041.321 (0) Email: Mails were not sent successfully
+0041.324 (0) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: email to: forma...
+0041.326 (0) Email: Mails were not sent successfully
+0041.329 (0) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: email to: forma...
+0041.331 (0) Email: Mails were not sent successfully
+0041.336 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0041.339 (0) Number of backup sets in history: 1; groups (db): 1
+0041.340 (0) Examining (for databases) backup set with group_id=0, nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+0041.342 (0) This backup set is the backup set just made, so will not be deleted.
+0041.342 (0) Number of backup sets in history: 1; groups (files): 1
+0041.344 (0) Examining (for files) backup set with nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+0041.344 (0) This backup set is the backup set just made, so will not be deleted.
+0041.346 (0) This backup set is the backup set just made, so will not be deleted.
+0041.347 (0) This backup set is the backup set just made, so will not be deleted.
+0041.347 (0) This backup set is the backup set just made, so will not be deleted.
+0041.347 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.349 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0041.353 (0) Resume backup (6b0f5860fe98, 0): finish run
+0041.376 (0) Decremented the semaphore (fd) by 1
+0041.380 (0) Semaphore (fd) unlocked
+0041.382 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0041.426 (0) Rescheduling resumption 1: moving to 60 seconds from now (1629474076)
+0041.504 (0) The backup has not finished; a resumption is scheduled
+0102.987 (1) Opened log file at time: Fri, 20 Aug 2021 15:41:17 +0000 on http://localhost/wordpress
+0102.990 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.60 WP: 5.8 PHP: 8.0.9 (apache2handler, Windows NT LAPTOP-TTDUB01Q 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.20-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 42.9M | 6M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0103.092 (1) Free space on disk containing Updraft's temporary directory: 357026 MB
+0103.123 (1) Requesting backup semaphore lock (6b0f5860fe98)
+0103.161 (1) [Debug] Lock option (updraft_lock_6b0f5860fe98, wp_options) was created in the database
+0103.179 (1) [Info] Lock (updraft_lock_6b0f5860fe98, wp_options) acquired after initialising the database
+0103.210 (1) Backup run: resumption=1, nonce=6b0f5860fe98, file_nonce=6b0f5860fe98 begun at=1629473974 (103s ago), job type=backup, previous check-in=40.6s
+0103.227 (1) Scheduling a resumption (2) after 300 seconds (1629474378) in case this run gets aborted
+0103.261 (1) Checking if we have a zip executable available
+0103.277 (1) Creation of backups of directories: already finished
+0103.282 (1) Saving backup status to database (elements: 8)
+0103.291 (1) Database dump (WordPress DB): Creation was completed already
+0103.295 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0103.337 (1) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0103.340 (1) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0103.348 (1) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0103.351 (1) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: others: This file has not yet been successfully uploaded: will queue
+0103.353 (1) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: db: This file has not yet been successfully uploaded: will queue
+0103.356 (1) Saving backup history. Total backup size: 30.6 MB
+0103.362 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0103.370 (1) Cloud backup selection (1/1): email with instance (1/1) (last)
+0103.373 (1) Beginning dispatch of backup to remote (email)
+0103.375 (1) [Warning] Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: This backup archive is 23.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0103.378 (1) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: email to: forma...
+0103.394 (1) Email: Mails were not sent successfully
+0103.405 (1) An error condition has occurred for the first time during this job
+0103.409 (1) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: email to: forma...
+0103.411 (1) Email: Mails were not sent successfully
+0103.414 (1) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: email to: forma...
+0103.417 (1) Email: Mails were not sent successfully
+0103.419 (1) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: email to: forma...
+0103.422 (1) Email: Mails were not sent successfully
+0103.424 (1) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: email to: forma...
+0103.427 (1) Email: Mails were not sent successfully
+0103.433 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0103.437 (1) Number of backup sets in history: 1; groups (db): 1
+0103.439 (1) Examining (for databases) backup set with group_id=0, nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+0103.449 (1) This backup set is the backup set just made, so will not be deleted.
+0103.449 (1) Number of backup sets in history: 1; groups (files): 1
+0103.452 (1) Examining (for files) backup set with nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+0103.452 (1) This backup set is the backup set just made, so will not be deleted.
+0103.454 (1) This backup set is the backup set just made, so will not be deleted.
+0103.454 (1) This backup set is the backup set just made, so will not be deleted.
+0103.454 (1) This backup set is the backup set just made, so will not be deleted.
+0103.454 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0103.460 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0103.472 (1) Resume backup (6b0f5860fe98, 1): finish run
+0103.477 (1) [Info] Lock option (updraft_lock_6b0f5860fe98, wp_options) released
+0103.480 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0103.485 (1) The backup has not finished; a resumption is scheduled
+0407.194 (2) Opened log file at time: Fri, 20 Aug 2021 15:46:21 +0000 on http://localhost/wordpress
+0407.203 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.60 WP: 5.8 PHP: 8.0.9 (apache2handler, Windows NT LAPTOP-TTDUB01Q 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.20-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 42.9M | 6M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0407.242 (2) Free space on disk containing Updraft's temporary directory: 357026 MB
+0407.252 (2) Requesting backup semaphore lock (6b0f5860fe98)
+0407.275 (2) [Info] Lock (updraft_lock_6b0f5860fe98, wp_options) acquired
+0407.309 (2) Backup run: resumption=2, nonce=6b0f5860fe98, file_nonce=6b0f5860fe98 begun at=1629473974 (408s ago), job type=backup
+0407.332 (2) Scheduling a resumption (3) after 300 seconds (1629474682) in case this run gets aborted
+0407.353 (2) Checking if we have a zip executable available
+0407.355 (2) Creation of backups of directories: already finished
+0407.357 (2) Saving backup status to database (elements: 8)
+0407.364 (2) Database dump (WordPress DB): Creation was completed already
+0407.366 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0407.387 (2) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0407.389 (2) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0407.406 (2) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0407.408 (2) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: others: This file has not yet been successfully uploaded: will queue
+0407.409 (2) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: db: This file has not yet been successfully uploaded: will queue
+0407.428 (2) Saving backup history. Total backup size: 30.6 MB
+0407.442 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0407.485 (2) Cloud backup selection (1/1): email with instance (1/1) (last)
+0407.488 (2) Beginning dispatch of backup to remote (email)
+0407.500 (2) [Warning] Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: This backup archive is 23.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0407.503 (2) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: email to: forma...
+0407.529 (2) Email: Mails were not sent successfully
+0407.534 (2) An error condition has occurred for the first time during this job
+0407.537 (2) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: email to: forma...
+0407.540 (2) Email: Mails were not sent successfully
+0407.552 (2) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: email to: forma...
+0407.555 (2) Email: Mails were not sent successfully
+0407.558 (2) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: email to: forma...
+0407.560 (2) Email: Mails were not sent successfully
+0407.563 (2) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: email to: forma...
+0407.565 (2) Email: Mails were not sent successfully
+0407.570 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0407.572 (2) Number of backup sets in history: 1; groups (db): 1
+0407.574 (2) Examining (for databases) backup set with group_id=0, nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+0407.584 (2) This backup set is the backup set just made, so will not be deleted.
+0407.584 (2) Number of backup sets in history: 1; groups (files): 1
+0407.586 (2) Examining (for files) backup set with nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+0407.586 (2) This backup set is the backup set just made, so will not be deleted.
+0407.588 (2) This backup set is the backup set just made, so will not be deleted.
+0407.588 (2) This backup set is the backup set just made, so will not be deleted.
+0407.588 (2) This backup set is the backup set just made, so will not be deleted.
+0407.588 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0407.604 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0407.613 (2) Resume backup (6b0f5860fe98, 2): finish run
+0407.615 (2) [Info] Lock option (updraft_lock_6b0f5860fe98, wp_options) released
+0407.625 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0407.629 (2) The backup has not finished; a resumption is scheduled
+0710.976 (3) Opened log file at time: Fri, 20 Aug 2021 15:51:25 +0000 on http://localhost/wordpress
+0711.082 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.60 WP: 5.8 PHP: 8.0.9 (apache2handler, Windows NT LAPTOP-TTDUB01Q 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.20-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 42.9M | 6M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0711.095 (3) Free space on disk containing Updraft's temporary directory: 357026 MB
+0711.100 (3) Requesting backup semaphore lock (6b0f5860fe98)
+0711.115 (3) [Info] Lock (updraft_lock_6b0f5860fe98, wp_options) acquired
+0711.130 (3) Backup run: resumption=3, nonce=6b0f5860fe98, file_nonce=6b0f5860fe98 begun at=1629473974 (711s ago), job type=backup
+0711.144 (3) Scheduling a resumption (4) after 300 seconds (1629474985) in case this run gets aborted
+0711.183 (3) Checking if we have a zip executable available
+0711.185 (3) Creation of backups of directories: already finished
+0711.187 (3) Saving backup status to database (elements: 8)
+0711.207 (3) Database dump (WordPress DB): Creation was completed already
+0711.228 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0711.241 (3) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0711.255 (3) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0711.265 (3) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0711.281 (3) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: others: This file has not yet been successfully uploaded: will queue
+0711.284 (3) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: db: This file has not yet been successfully uploaded: will queue
+0711.298 (3) Saving backup history. Total backup size: 30.6 MB
+0711.317 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+0711.344 (3) Cloud backup selection (1/1): email with instance (1/1) (last)
+0711.346 (3) Beginning dispatch of backup to remote (email)
+0711.348 (3) [Warning] Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: This backup archive is 23.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0711.352 (3) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: email to: forma...
+0711.371 (3) Email: Mails were not sent successfully
+0711.381 (3) An error condition has occurred for the first time during this job
+0711.384 (3) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: email to: forma...
+0711.387 (3) Email: Mails were not sent successfully
+0711.393 (3) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: email to: forma...
+0711.395 (3) Email: Mails were not sent successfully
+0711.408 (3) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: email to: forma...
+0711.411 (3) Email: Mails were not sent successfully
+0711.413 (3) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: email to: forma...
+0711.415 (3) Email: Mails were not sent successfully
+0711.419 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0711.421 (3) Number of backup sets in history: 1; groups (db): 1
+0711.440 (3) Examining (for databases) backup set with group_id=0, nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+0711.442 (3) This backup set is the backup set just made, so will not be deleted.
+0711.443 (3) Number of backup sets in history: 1; groups (files): 1
+0711.451 (3) Examining (for files) backup set with nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+0711.451 (3) This backup set is the backup set just made, so will not be deleted.
+0711.454 (3) This backup set is the backup set just made, so will not be deleted.
+0711.454 (3) This backup set is the backup set just made, so will not be deleted.
+0711.454 (3) This backup set is the backup set just made, so will not be deleted.
+0711.454 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0711.456 (3) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0711.462 (3) Resume backup (6b0f5860fe98, 3): finish run
+0711.464 (3) [Info] Lock option (updraft_lock_6b0f5860fe98, wp_options) released
+0711.467 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0711.472 (3) The backup has not finished; a resumption is scheduled
+1070.931 (4) Opened log file at time: Fri, 20 Aug 2021 15:57:25 +0000 on http://localhost/wordpress
+1070.935 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.60 WP: 5.8 PHP: 8.0.9 (apache2handler, Windows NT LAPTOP-TTDUB01Q 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.20-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 42.9M | 16M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+1070.944 (4) Free space on disk containing Updraft's temporary directory: 357026 MB
+1070.955 (4) Requesting backup semaphore lock (6b0f5860fe98)
+1070.970 (4) [Info] Lock (updraft_lock_6b0f5860fe98, wp_options) acquired
+1070.986 (4) Backup run: resumption=4, nonce=6b0f5860fe98, file_nonce=6b0f5860fe98 begun at=1629473974 (1071s ago), job type=backup
+1071.003 (4) Scheduling a resumption (5) after 300 seconds (1629475345) in case this run gets aborted
+1071.030 (4) Checking if we have a zip executable available
+1071.046 (4) Creation of backups of directories: already finished
+1071.060 (4) Saving backup status to database (elements: 8)
+1071.072 (4) Database dump (WordPress DB): Creation was completed already
+1071.075 (4) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1071.136 (4) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1071.146 (4) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1071.174 (4) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1071.176 (4) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: others: This file has not yet been successfully uploaded: will queue
+1071.192 (4) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: db: This file has not yet been successfully uploaded: will queue
+1071.233 (4) Saving backup history. Total backup size: 30.6 MB
+1071.267 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+1071.283 (4) Cloud backup selection (1/1): email with instance (1/1) (last)
+1071.285 (4) Beginning dispatch of backup to remote (email)
+1071.305 (4) [Warning] Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: This backup archive is 23.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1071.316 (4) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: email to: forma...
+1071.346 (4) Email: Mails were not sent successfully
+1071.351 (4) An error condition has occurred for the first time during this job
+1071.354 (4) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: email to: forma...
+1071.358 (4) Email: Mails were not sent successfully
+1071.361 (4) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: email to: forma...
+1071.364 (4) Email: Mails were not sent successfully
+1071.367 (4) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: email to: forma...
+1071.380 (4) Email: Mails were not sent successfully
+1071.384 (4) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: email to: forma...
+1071.387 (4) Email: Mails were not sent successfully
+1071.447 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1071.451 (4) Number of backup sets in history: 1; groups (db): 1
+1071.462 (4) Examining (for databases) backup set with group_id=0, nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+1071.465 (4) This backup set is the backup set just made, so will not be deleted.
+1071.465 (4) Number of backup sets in history: 1; groups (files): 1
+1071.473 (4) Examining (for files) backup set with nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+1071.473 (4) This backup set is the backup set just made, so will not be deleted.
+1071.485 (4) This backup set is the backup set just made, so will not be deleted.
+1071.485 (4) This backup set is the backup set just made, so will not be deleted.
+1071.486 (4) This backup set is the backup set just made, so will not be deleted.
+1071.486 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1071.489 (4) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1071.498 (4) Resume backup (6b0f5860fe98, 4): finish run
+1071.507 (4) [Info] Lock option (updraft_lock_6b0f5860fe98, wp_options) released
+1071.512 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1071.521 (4) The backup has not finished; a resumption is scheduled
+1430.589 (5) Opened log file at time: Fri, 20 Aug 2021 16:03:25 +0000 on http://localhost/wordpress
+1430.593 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.60 WP: 5.8 PHP: 8.0.9 (apache2handler, Windows NT LAPTOP-TTDUB01Q 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.20-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 42.9M | 6M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+1430.614 (5) Free space on disk containing Updraft's temporary directory: 357026 MB
+1430.617 (5) Requesting backup semaphore lock (6b0f5860fe98)
+1430.629 (5) [Info] Lock (updraft_lock_6b0f5860fe98, wp_options) acquired
+1430.660 (5) Backup run: resumption=5, nonce=6b0f5860fe98, file_nonce=6b0f5860fe98 begun at=1629473974 (1431s ago), job type=backup
+1430.681 (5) Scheduling a resumption (6) after 300 seconds (1629475705) in case this run gets aborted
+1430.726 (5) Checking if we have a zip executable available
+1430.729 (5) Creation of backups of directories: already finished
+1430.736 (5) Saving backup status to database (elements: 8)
+1430.748 (5) Database dump (WordPress DB): Creation was completed already
+1430.760 (5) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1430.786 (5) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1430.790 (5) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1430.794 (5) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1430.803 (5) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: others: This file has not yet been successfully uploaded: will queue
+1430.821 (5) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: db: This file has not yet been successfully uploaded: will queue
+1430.825 (5) Saving backup history. Total backup size: 30.6 MB
+1430.836 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+1430.847 (5) Cloud backup selection (1/1): email with instance (1/1) (last)
+1430.859 (5) Beginning dispatch of backup to remote (email)
+1430.863 (5) [Warning] Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: This backup archive is 23.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1430.866 (5) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: email to: forma...
+1430.883 (5) Email: Mails were not sent successfully
+1430.899 (5) An error condition has occurred for the first time during this job
+1430.913 (5) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: email to: forma...
+1430.916 (5) Email: Mails were not sent successfully
+1430.922 (5) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: email to: forma...
+1430.925 (5) Email: Mails were not sent successfully
+1430.944 (5) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: email to: forma...
+1430.957 (5) Email: Mails were not sent successfully
+1430.960 (5) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: email to: forma...
+1430.963 (5) Email: Mails were not sent successfully
+1430.966 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1430.968 (5) Number of backup sets in history: 1; groups (db): 1
+1430.970 (5) Examining (for databases) backup set with group_id=0, nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+1430.971 (5) This backup set is the backup set just made, so will not be deleted.
+1430.971 (5) Number of backup sets in history: 1; groups (files): 1
+1430.972 (5) Examining (for files) backup set with nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+1430.972 (5) This backup set is the backup set just made, so will not be deleted.
+1430.974 (5) This backup set is the backup set just made, so will not be deleted.
+1430.974 (5) This backup set is the backup set just made, so will not be deleted.
+1430.974 (5) This backup set is the backup set just made, so will not be deleted.
+1430.974 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1430.976 (5) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1430.981 (5) Resume backup (6b0f5860fe98, 5): finish run
+1430.982 (5) [Info] Lock option (updraft_lock_6b0f5860fe98, wp_options) released
+1430.984 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1430.987 (5) The backup has not finished; a resumption is scheduled
+1790.962 (6) Opened log file at time: Fri, 20 Aug 2021 16:09:25 +0000 on http://localhost/wordpress
+1790.983 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.60 WP: 5.8 PHP: 8.0.9 (apache2handler, Windows NT LAPTOP-TTDUB01Q 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.20-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 42.9M | 6M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+1790.995 (6) Free space on disk containing Updraft's temporary directory: 357025.9 MB
+1791.018 (6) Requesting backup semaphore lock (6b0f5860fe98)
+1791.060 (6) [Info] Lock (updraft_lock_6b0f5860fe98, wp_options) acquired
+1791.097 (6) Backup run: resumption=6, nonce=6b0f5860fe98, file_nonce=6b0f5860fe98 begun at=1629473974 (1791s ago), job type=backup
+1791.104 (6) Scheduling a resumption (7) after 300 seconds (1629476065) in case this run gets aborted
+1791.154 (6) Checking if we have a zip executable available
+1791.162 (6) Creation of backups of directories: already finished
+1791.168 (6) Saving backup status to database (elements: 8)
+1791.208 (6) Database dump (WordPress DB): Creation was completed already
+1791.212 (6) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1791.247 (6) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1791.259 (6) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1791.295 (6) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1791.299 (6) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: others: This file has not yet been successfully uploaded: will queue
+1791.302 (6) backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: db: This file has not yet been successfully uploaded: will queue
+1791.305 (6) Saving backup history. Total backup size: 30.6 MB
+1791.318 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+1791.330 (6) Cloud backup selection (1/1): email with instance (1/1) (last)
+1791.341 (6) Beginning dispatch of backup to remote (email)
+1791.345 (6) [Warning] Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: This backup archive is 23.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1791.348 (6) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-plugins.zip: email to: forma...
+1791.366 (6) Email: Mails were not sent successfully
+1791.372 (6) An error condition has occurred for the first time during this job
+1791.383 (6) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-themes.zip: email to: forma...
+1791.385 (6) Email: Mails were not sent successfully
+1791.396 (6) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-uploads.zip: email to: forma...
+1791.399 (6) Email: Mails were not sent successfully
+1791.401 (6) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-others.zip: email to: forma...
+1791.402 (6) Email: Mails were not sent successfully
+1791.405 (6) Email: backup_2021-08-20-1539_Epoch_Media_6b0f5860fe98-db.gz: email to: forma...
+1791.407 (6) Email: Mails were not sent successfully
+1791.420 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1791.460 (6) Number of backup sets in history: 1; groups (db): 1
+1791.473 (6) Examining (for databases) backup set with group_id=0, nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+1791.486 (6) This backup set is the backup set just made, so will not be deleted.
+1791.486 (6) Number of backup sets in history: 1; groups (files): 1
+1791.488 (6) Examining (for files) backup set with nonce=6b0f5860fe98, datestamp=1629473974 (Aug 20 2021 15:39:34)
+1791.488 (6) This backup set is the backup set just made, so will not be deleted.
+1791.490 (6) This backup set is the backup set just made, so will not be deleted.
+1791.490 (6) This backup set is the backup set just made, so will not be deleted.
+1791.491 (6) This backup set is the backup set just made, so will not be deleted.
+1791.491 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1791.492 (6) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1791.496 (6) Resume backup (6b0f5860fe98, 6): finish run
+1791.498 (6) [Info] Lock option (updraft_lock_6b0f5860fe98, wp_options) released
+1791.501 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1791.505 (6) The backup has not finished; a resumption is scheduled
+233084.914 (7) Opened log file at time: Mon, 23 Aug 2021 08:24:19 +0000 on http://localhost/wordpress
+233084.939 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.60 WP: 5.8 PHP: 8.0.9 (apache2handler, Windows NT LAPTOP-TTDUB01Q 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.20-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 42.9M | 38M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+233084.953 (7) Free space on disk containing Updraft's temporary directory: 357025.9 MB
+233085.006 (7) Requesting backup semaphore lock (6b0f5860fe98)
+233085.057 (7) [Info] Lock (updraft_lock_6b0f5860fe98, wp_options) acquired
+233085.069 (7) This backup task (6b0f5860fe98) is either complete or began over 2 days ago: ending (1629707059.5946, 1629473974) (existing jobdata keys: resume_interval, job_type, jobstatus, backup_time, job_time_ms, service, split_every, maxzipbatch, job_file_entities, option_cache, uploaded_lastreset, one_shot, followsups_allowed, backup_database, backup_files, remote_storage_instances, runs_started, current_resumption, binzip, filecreating_substatus, files_enumerated_at, run_times, useful_checkins, sha1-plugins0, sha256-plugins0, sha1-themes0, sha256-themes0, sha1-uploads0, sha256-uploads0, sha1-others0, sha256-others0, backup_files_array, binsqldump, dbcreating_substatus, fetch_rows, sha1-db0, sha256-db0, uploading_substatus, warnings, prune)

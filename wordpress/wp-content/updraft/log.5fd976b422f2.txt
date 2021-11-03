@@ -1,0 +1,28 @@
+0442.489 (2) Opened log file at time: Mon, 06 Sep 2021 12:38:32 +0000 on http://localhost/wordpress
+0442.498 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.61 WP: 5.8 PHP: 8.0.9 (apache2handler, Windows NT LAPTOP-TTDUB01Q 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.20-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 49.3M | 6M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0442.500 (2) Free space on disk containing Updraft's temporary directory: 356988 MB
+0442.513 (2) Requesting backup semaphore lock (5fd976b422f2)
+0442.550 (2) [Info] Lock (updraft_lock_5fd976b422f2, wp_options) acquired
+0442.556 (2) Backup run: resumption=2, nonce=5fd976b422f2, file_nonce=5fd976b422f2 begun at=1630931470 (442s ago), job type=backup
+0442.578 (2) Scheduling a resumption (3) after 300 seconds (1630932212) in case this run gets aborted
+0442.604 (2) Checking if we have a zip executable available
+0442.618 (2) Creation of backups of directories: already finished
+0442.622 (2) Saving backup status to database (elements: 8)
+0442.644 (2) Database dump (WordPress DB): Creation was completed already
+0442.648 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0442.657 (2) backup_2021-09-06-1231_Epoch_Media_5fd976b422f2-plugins.zip: plugins: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (E:\Xampp\htdocs\wordpress/wp-content/updraft/backup_2021-09-06-1231_Epoch_Media_5fd976b422f2-plugins.zip)
+0442.660 (2) Recording as successfully uploaded: backup_2021-09-06-1231_Epoch_Media_5fd976b422f2-plugins.zip
+0442.679 (2) backup_2021-09-06-1231_Epoch_Media_5fd976b422f2-themes.zip: themes: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (E:\Xampp\htdocs\wordpress/wp-content/updraft/backup_2021-09-06-1231_Epoch_Media_5fd976b422f2-themes.zip)
+0442.694 (2) Recording as successfully uploaded: backup_2021-09-06-1231_Epoch_Media_5fd976b422f2-themes.zip
+0442.760 (2) backup_2021-09-06-1231_Epoch_Media_5fd976b422f2-uploads.zip: uploads: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (E:\Xampp\htdocs\wordpress/wp-content/updraft/backup_2021-09-06-1231_Epoch_Media_5fd976b422f2-uploads.zip)
+0442.783 (2) Recording as successfully uploaded: backup_2021-09-06-1231_Epoch_Media_5fd976b422f2-uploads.zip
+0442.796 (2) backup_2021-09-06-1231_Epoch_Media_5fd976b422f2-others.zip: others: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (E:\Xampp\htdocs\wordpress/wp-content/updraft/backup_2021-09-06-1231_Epoch_Media_5fd976b422f2-others.zip)
+0442.800 (2) Recording as successfully uploaded: backup_2021-09-06-1231_Epoch_Media_5fd976b422f2-others.zip
+0442.866 (2) backup_2021-09-06-1231_Epoch_Media_5fd976b422f2-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+0442.880 (2) Saving backup history. Total backup size: Unknown
+0442.917 (2) Resume backup (5fd976b422f2, 2): finish run
+0442.961 (2) There were no more files that needed uploading
+0442.965 (2) [Info] Lock option (updraft_lock_5fd976b422f2, wp_options) released
+0442.988 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+0443.057 (2) No email will be sent - this backup set was empty.
+0443.061 (2) The backup apparently succeeded (with warnings) and is now complete
